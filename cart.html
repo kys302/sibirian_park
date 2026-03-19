@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Корзина интернет-магазина растений Сибирский парк.">
+  <title>Корзина — Сибирский парк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="cart">
+  <div class="site-shell">
+    <div data-site-header></div>
+
+    <main class="page-main">
+      <section class="page-banner compact">
+        <div class="container">
+          <p class="eyebrow">Корзина</p>
+          <h1>Ваши выбранные растения</h1>
+          <p>Проверьте состав заказа, скорректируйте количество и переходите к оформлению.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cart-layout">
+          <div id="cart-items" class="cart-items"></div>
+
+          <aside class="summary-card card" id="cart-summary">
+            <h2>Итого</h2>
+            <div class="summary-row">
+              <span>Товаров</span>
+              <strong id="cart-count">0</strong>
+            </div>
+            <div class="summary-row total">
+              <span>Сумма</span>
+              <strong id="cart-total">0 ₽</strong>
+            </div>
+            <div class="summary-actions">
+              <a id="checkout-link" class="btn btn-primary btn-full" href="checkout.html">Перейти к оформлению</a>
+              <a class="btn btn-secondary btn-full" href="catalog.html">Продолжить покупки</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

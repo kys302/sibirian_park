@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "slug": "fruit-trees",
+    "name": "Плодовые деревья",
+    "description": "Саженцы яблонь, груш, слив и других плодовых культур для сада.",
+    "image": "assets/images/products/fruit-tree.svg"
+  },
+  {
+    "id": 2,
+    "slug": "fruit-shrubs",
+    "name": "Плодовые кустарники",
+    "description": "Смородина, малина, жимолость и другие ягодные кустарники.",
+    "image": "assets/images/products/fruit-shrub.svg"
+  },
+  {
+    "id": 3,
+    "slug": "ornamental-shrubs",
+    "name": "Декоративные кустарники",
+    "description": "Цветущие и декоративно-лиственные кустарники для оформления участка.",
+    "image": "assets/images/products/ornamental-shrub.svg"
+  },
+  {
+    "id": 4,
+    "slug": "conifers",
+    "name": "Хвойные растения",
+    "description": "Туи, можжевельники и другие хвойные культуры для круглогодичного озеленения.",
+    "image": "assets/images/products/conifer.svg"
+  },
+  {
+    "id": 5,
+    "slug": "perennials",
+    "name": "Многолетние цветы",
+    "description": "Многолетники для клумб, миксбордеров и садовых композиций.",
+    "image": "assets/images/products/perennial.svg"
+  }
+]

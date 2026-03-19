@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Карточка товара интернет-магазина растений Сибирский парк.">
+  <title>Карточка товара — Сибирский парк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="product">
+  <div class="site-shell">
+    <div data-site-header></div>
+
+    <main class="page-main">
+      <section class="section">
+        <div class="container">
+          <nav id="product-breadcrumbs" class="breadcrumbs"></nav>
+          <div id="product-content"></div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Рекомендуем</p>
+              <h2>Похожие растения</h2>
+            </div>
+          </div>
+          <div id="related-products" class="product-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

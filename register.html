@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Регистрация в интернет-магазине растений Сибирский парк.">
+  <title>Регистрация — Сибирский парк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="register">
+  <div class="site-shell">
+    <div data-site-header></div>
+
+    <main class="page-main">
+      <section class="section auth-section">
+        <div class="container auth-layout">
+          <div class="auth-info">
+            <p class="eyebrow">Регистрация</p>
+            <h1>Создание аккаунта</h1>
+            <p>Зарегистрируйтесь, чтобы быстрее оформлять заказы и видеть историю покупок в личном кабинете.</p>
+            <ul class="bullet-list card">
+              <li>Быстрое оформление заказов и повторные покупки.</li>
+              <li>Доступ к истории заказов в личном кабинете.</li>
+              <li>Удобный доступ к заказам и основным данным аккаунта.</li>
+            </ul>
+          </div>
+
+          <form id="register-form" class="card form-card auth-form" novalidate>
+            <h2>Зарегистрироваться</h2>
+            <div>
+              <label class="label" for="register-name">Имя</label>
+              <input id="register-name" name="name" class="input" type="text" placeholder="Как к вам обращаться">
+              <p class="field-error" data-error-for="name"></p>
+            </div>
+            <div>
+              <label class="label" for="register-email">Email</label>
+              <input id="register-email" name="email" class="input" type="email" placeholder="mail@example.com">
+              <p class="field-error" data-error-for="email"></p>
+            </div>
+            <div>
+              <label class="label" for="register-password">Пароль</label>
+              <input id="register-password" name="password" class="input" type="password" placeholder="Придумайте пароль">
+              <p class="field-error" data-error-for="password"></p>
+            </div>
+            <div>
+              <label class="label" for="register-confirm-password">Подтверждение пароля</label>
+              <input id="register-confirm-password" name="confirmPassword" class="input" type="password" placeholder="Повторите пароль">
+              <p class="field-error" data-error-for="confirmPassword"></p>
+            </div>
+            <button class="btn btn-primary btn-full" type="submit">Создать аккаунт</button>
+            <p id="register-message" class="muted-text"></p>
+            <p class="auth-switch">Уже зарегистрированы? <a class="text-link" href="login.html">Войти</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

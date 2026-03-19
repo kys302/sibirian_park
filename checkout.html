@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Оформление заказа интернет-магазина растений Сибирский парк.">
+  <title>Оформление заказа — Сибирский парк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="checkout">
+  <div class="site-shell">
+    <div data-site-header></div>
+
+    <main class="page-main">
+      <section class="page-banner compact">
+        <div class="container">
+          <p class="eyebrow">Оформление заказа</p>
+          <h1>Данные для доставки и связи</h1>
+          <p>Заполните контактную информацию, и мы свяжемся с вами для подтверждения заказа.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container checkout-layout">
+          <form id="checkout-form" class="card form-card" novalidate>
+            <div class="form-section">
+              <h2>Контактные данные</h2>
+              <div class="form-grid two-columns">
+                <div>
+                  <label class="label" for="checkout-name">Имя</label>
+                  <input id="checkout-name" name="name" class="input" type="text" placeholder="Ваше имя">
+                  <p class="field-error" data-error-for="name"></p>
+                </div>
+                <div>
+                  <label class="label" for="checkout-phone">Телефон</label>
+                  <input id="checkout-phone" name="phone" class="input" type="tel" placeholder="+7 (___) ___-__-__">
+                  <p class="field-error" data-error-for="phone"></p>
+                </div>
+                <div>
+                  <label class="label" for="checkout-email">Email</label>
+                  <input id="checkout-email" name="email" class="input" type="email" placeholder="mail@example.com">
+                  <p class="field-error" data-error-for="email"></p>
+                </div>
+                <div>
+                  <label class="label" for="checkout-address">Адрес доставки</label>
+                  <input id="checkout-address" name="address" class="input" type="text" placeholder="Город, улица, дом">
+                  <p class="field-error" data-error-for="address"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-section">
+              <label class="label" for="checkout-comment">Комментарий к заказу</label>
+              <textarea id="checkout-comment" name="comment" class="textarea" rows="5" placeholder="Например, нужна консультация по посадке и уходу"></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Подтвердить заказ</button>
+              <a class="btn btn-secondary" href="cart.html">Вернуться в корзину</a>
+            </div>
+
+            <div id="checkout-success" class="success-box hidden"></div>
+          </form>
+
+          <aside class="summary-card card">
+            <h2>Состав заказа</h2>
+            <div id="checkout-summary-items" class="summary-items"></div>
+            <div class="summary-row total">
+              <span>Итого</span>
+              <strong id="checkout-total">0 ₽</strong>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

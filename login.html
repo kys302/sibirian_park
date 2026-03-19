@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Вход в личный кабинет магазина Сибирский парк.">
+  <title>Вход — Сибирский парк</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="login">
+  <div class="site-shell">
+    <div data-site-header></div>
+
+    <main class="page-main">
+      <section class="section auth-section">
+        <div class="container auth-layout">
+          <div class="auth-info">
+            <p class="eyebrow">Вход</p>
+            <h1>Личный кабинет</h1>
+            <p>Войдите в аккаунт, чтобы просматривать историю заказов, повторять покупки и быстрее оформлять новые заявки.</p>
+          </div>
+
+          <form id="login-form" class="card form-card auth-form" novalidate>
+            <h2>Войти</h2>
+            <div>
+              <label class="label" for="login-email">Email</label>
+              <input id="login-email" name="email" class="input" type="email" placeholder="mail@example.com">
+              <p class="field-error" data-error-for="email"></p>
+            </div>
+            <div>
+              <label class="label" for="login-password">Пароль</label>
+              <input id="login-password" name="password" class="input" type="password" placeholder="Введите пароль">
+              <p class="field-error" data-error-for="password"></p>
+            </div>
+            <button class="btn btn-primary btn-full" type="submit">Войти</button>
+            <p id="login-message" class="muted-text"></p>
+            <p class="auth-switch">Нет аккаунта? <a class="text-link" href="register.html">Зарегистрироваться</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div data-site-footer></div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

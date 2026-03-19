@@ -1,0 +1,152 @@
+[
+  {
+    "id": 101,
+    "category_id": 1,
+    "name": "Яблоня Антоновка",
+    "description": "Классический зимостойкий сорт с ароматными плодами. Подходит для посадки в частных садах Новосибирской области.",
+    "price": 950,
+    "image": "assets/images/products/catalog/apple-antonovka.jpg",
+    "stock": 12,
+    "is_featured": true
+  },
+  {
+    "id": 102,
+    "category_id": 1,
+    "name": "Груша Лада",
+    "description": "Раннелетний сорт груши с сочными сладкими плодами и хорошей устойчивостью к погодным условиям.",
+    "price": 1190,
+    "image": "assets/images/products/catalog/pear-lada.jpg",
+    "stock": 7,
+    "is_featured": true
+  },
+  {
+    "id": 103,
+    "category_id": 1,
+    "name": "Слива Скороплодная",
+    "description": "Компактное дерево с ранним вступлением в плодоношение. Подходит для дачных участков и семейного сада.",
+    "price": 1100,
+    "image": "assets/images/products/catalog/plum-skoroplodnaya.jpg",
+    "stock": 9,
+    "is_featured": false
+  },
+  {
+    "id": 201,
+    "category_id": 2,
+    "name": "Смородина чёрная Селеченская",
+    "description": "Урожайный куст с крупной ароматной ягодой. Хороший выбор для плодового ряда на участке.",
+    "price": 520,
+    "image": "assets/images/products/catalog/blackcurrant-selechenskaya.jpg",
+    "stock": 18,
+    "is_featured": true
+  },
+  {
+    "id": 202,
+    "category_id": 2,
+    "name": "Малина ремонтантная Геракл",
+    "description": "Популярный ремонтантный сорт с крупной ягодой и растянутым периодом плодоношения.",
+    "price": 480,
+    "image": "assets/images/products/catalog/raspberry-gerakl.jpg",
+    "stock": 24,
+    "is_featured": false
+  },
+  {
+    "id": 203,
+    "category_id": 2,
+    "name": "Жимолость садовая Бакчарский великан",
+    "description": "Зимостойкий кустарник с ранним плодоношением и крупными ягодами десертного вкуса.",
+    "price": 640,
+    "image": "assets/images/products/catalog/honeysuckle-bakcharskiy-velikan.jpg",
+    "stock": 11,
+    "is_featured": true
+  },
+  {
+    "id": 301,
+    "category_id": 3,
+    "name": "Гортензия метельчатая Limelight",
+    "description": "Эффектный декоративный кустарник с крупными метельчатыми соцветиями и длительным цветением.",
+    "price": 1450,
+    "image": "assets/images/products/catalog/hydrangea-limelight.jpg",
+    "stock": 8,
+    "is_featured": true
+  },
+  {
+    "id": 302,
+    "category_id": 3,
+    "name": "Спирея японская Goldflame",
+    "description": "Неприхотливый кустарник с декоративной листвой и ярким цветением, удобен для бордюров и групповых посадок.",
+    "price": 690,
+    "image": "assets/images/products/catalog/spirea-goldflame.jpg",
+    "stock": 14,
+    "is_featured": false
+  },
+  {
+    "id": 303,
+    "category_id": 3,
+    "name": "Пузыреплодник калинолистный Diablo",
+    "description": "Декоративный кустарник с тёмной листвой, подходит для живых изгородей и акцентных посадок.",
+    "price": 780,
+    "image": "assets/images/products/catalog/physocarpus-diablo.jpg",
+    "stock": 10,
+    "is_featured": false
+  },
+  {
+    "id": 401,
+    "category_id": 4,
+    "name": "Туя западная Смарагд",
+    "description": "Популярный сорт туи с плотной конической кроной. Хорошо смотрится в рядовых и одиночных посадках.",
+    "price": 1850,
+    "image": "assets/images/products/catalog/thuja-smaragd.jpg",
+    "stock": 16,
+    "is_featured": true
+  },
+  {
+    "id": 402,
+    "category_id": 4,
+    "name": "Можжевельник казацкий",
+    "description": "Почвопокровный хвойный кустарник для рокариев, склонов и озеленения участка без сложного ухода.",
+    "price": 990,
+    "image": "assets/images/products/catalog/juniper-sabina.jpg",
+    "stock": 13,
+    "is_featured": false
+  },
+  {
+    "id": 403,
+    "category_id": 4,
+    "name": "Ель канадская Коника",
+    "description": "Компактная хвойная форма с плотной мягкой хвоей. Подходит для парадных зон и контейнерного озеленения.",
+    "price": 2100,
+    "image": "assets/images/products/catalog/picea-conica.jpg",
+    "stock": 5,
+    "is_featured": true
+  },
+  {
+    "id": 501,
+    "category_id": 5,
+    "name": "Роза чайно-гибридная Avalanche",
+    "description": "Элегантная крупноцветковая роза со светлыми бутонами, подходит для клумб и срезки.",
+    "price": 890,
+    "image": "assets/images/products/catalog/rose-avalanche.jpg",
+    "stock": 20,
+    "is_featured": true
+  },
+  {
+    "id": 502,
+    "category_id": 5,
+    "name": "Хоста гибридная Patriot",
+    "description": "Декоративно-лиственное многолетнее растение для тенистых уголков сада и миксбордеров.",
+    "price": 560,
+    "image": "assets/images/products/catalog/hosta-patriot.jpg",
+    "stock": 17,
+    "is_featured": false
+  },
+  {
+    "id": 503,
+    "category_id": 5,
+    "name": "Лилейник Stella de Oro",
+    "description": "Компактный многолетник с продолжительным цветением и ярко-жёлтыми цветками для солнечных клумб.",
+    "price": 610,
+    "image": "assets/images/products/catalog/daylily-stella-de-oro.jpg",
+    "stock": 15,
+    "is_featured": false
+  }
+]
