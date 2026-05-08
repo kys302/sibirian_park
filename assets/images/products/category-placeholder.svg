@@ -1,0 +1,17 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="44" fill="#EEF4EA"/>
+  <ellipse cx="616" cy="106" rx="166" ry="84" fill="#DDE9D9"/>
+  <ellipse cx="166" cy="430" rx="210" ry="110" fill="#E2EDE0"/>
+  <rect x="186" y="174" width="428" height="202" rx="36" fill="#F8FBF4" stroke="#BFD3BF" stroke-width="10"/>
+  <path d="M240 333C275 274 332 228 400 228C468 228 525 274 560 333" stroke="#9FBE9D" stroke-width="16" stroke-linecap="round"/>
+  <path d="M318 176V124C318 89.7583 345.758 62 380 62H420C454.242 62 482 89.7583 482 124V176" stroke="#87A984" stroke-width="16" stroke-linecap="round"/>
+  <path d="M290 279C313.333 243 346.333 225 389 225" stroke="#5C8759" stroke-width="14" stroke-linecap="round"/>
+  <path d="M510 279C486.667 243 453.667 225 411 225" stroke="#5C8759" stroke-width="14" stroke-linecap="round"/>
+  <path d="M400 225V336" stroke="#4E784B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M400 254C381.722 252.489 364.36 242.926 352 227.6C371.132 226.018 389.24 235.991 400 254Z" fill="#6E9B69"/>
+  <path d="M400 286C383.533 284.751 367.64 276.277 356 262.56C373.009 260.888 389.376 269.589 400 286Z" fill="#7BA877"/>
+  <path d="M400 316C417.924 314.823 434.956 305.947 447 291.48C428.296 289.716 410.317 298.553 400 316Z" fill="#6B965F"/>
+  <path d="M400 252C418.278 250.489 435.64 240.926 448 225.6C428.868 224.018 410.76 233.991 400 252Z" fill="#7EAC7B"/>
+  <rect x="320" y="336" width="160" height="18" rx="9" fill="#B68253"/>
+  <rect x="336" y="354" width="128" height="18" rx="9" fill="#C8955B"/>
+</svg>
